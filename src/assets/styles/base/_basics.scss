@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    color: $clr1;
+    font-family: heebo, sans-serif;
+    direction: rtl;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: $clr2;
+}
+
+
+// Reset
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid $clr-muted;
+}
+
+
+form {
+    padding: 50px;
+    .input-group {
+        margin-bottom: 2rem;
+        input, textarea, select {
+            padding: 10px 5px;
+        }
+        textarea {
+            height: 300px;
+        }
+    }
+}

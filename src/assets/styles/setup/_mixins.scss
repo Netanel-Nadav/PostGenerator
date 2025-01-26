@@ -1,0 +1,18 @@
+@mixin normal-layout {
+    @media screen and (min-width: $layout-normal) {
+        @content
+    }
+};
+
+@mixin large-layout {
+    @media screen and (min-width: $layout-large) {
+        @content
+    }
+};
+
+@mixin wide-layout {
+    @media screen and (min-width: $layout-wide) {
+        @content
+    }
+};
+

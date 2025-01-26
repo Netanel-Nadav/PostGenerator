@@ -1,0 +1,22 @@
+$clr1: rgb(22, 21, 22);
+$clr2: rgb(244, 241, 255);
+$clr3: #12c1c1;
+// $clr3: rgb(241, 162, 57);
+$clr-muted: rgb(173, 173, 173);
+
+
+$padding: 20px;
+$margin: 1.3rem;
+
+// BREAKPOINTS
+
+$mobile: 520px;
+$normal: 780px;
+$large: 980px;
+$wide: 1200px;
+
+
+$layout-mobile: $mobile + $padding * 2;
+$layout-normal: $normal + $padding * 2;
+$layout-large: $large + $padding * 2;
+$layout-wide: $wide + $padding * 2;

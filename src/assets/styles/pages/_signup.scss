@@ -1,0 +1,42 @@
+.signup {
+    height: 100%;
+    .wrapper {
+            align-items: center;
+          
+            form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+
+                h2 {
+                    line-height: 1;
+                    margin-bottom: 2rem;
+                    span {
+                        font-size: 1.5em;
+                    }
+                }
+
+                .input-group {
+
+                    
+                }
+                & .full {
+                    grid-column: 1 / -1;
+                }
+
+                button {
+                    grid-column: 2;
+                    padding: 15px;
+                }
+            }
+
+        .img-container {
+            grid-row: 1;
+         
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.user-request {
+    .wrapper {
+        overflow: hidden;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 10px 50px rgba(0,0,0,0.2);
+        .even-columns {
+
+            .choose-content {
+                font-size: 5em;
+                line-height: .8;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    max-width: 10ch;
+                    text-align: center;
+                }
+            }
+
+
+            form {
+                padding: 50px;
+                .input-group {
+                    margin-bottom: 2rem;
+                    input, textarea {
+                        padding: 10px 5px;
+                    }
+                    textarea {
+                        height: 300px;
+                    }
+                }
+                button {
+                    padding: 10px 35px;
+                }
+            }
+            .img-container {
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.post-choice {
+    min-height: 30vh;
+    
+    .wrapper {
+        .input-group {
+            svg {
+                font-size: 3rem;
+
+            }
+
+            input[type="radio"] {
+                // display: none;
+                &:checked {
+                    + svg {
+                        scale:1.5
+    
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.flex {
+    display: flex;
+
+    &.justify-center {
+        justify-content: center;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.space-between {
+        justify-content: space-between;
+    }
+
+    &.column {
+        flex-direction: column;
+    }
+
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+// COLORS
+.color-primary {
+    color: $clr1;
+}
+
+.color-secondary {
+    color: $clr2;
+}
+
+.bg-primary {
+    background-color: $clr1;
+}
+
+.bg-secondary {
+    background-color: $clr2;
+}
+
+
+
+// FONTS
+.fs-0 {
+    font-size: 0.750rem;
+}
+
+.fs-1 {
+    font-size: 1rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.fs-3 {
+    font-size: 3rem;
+}
+
+.fs-4 {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: $clr-muted;
+}
+
+
+// GAPS
+.g-0 {
+    gap: 0.750rem;
+}
+.g-1 {
+    gap: 1rem;
+}
+.g-2 {
+    gap: 2rem;
+}
+.g-3 {
+    gap: 3rem;
+}
+
+
+
+// MARGINS
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+
+
+
+.even-columns {
+    
+    @include wide-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.clean-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
